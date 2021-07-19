@@ -104,6 +104,19 @@ body {
 }
 
 /* SECTION */
+.titulo-section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3.5em;
+    background-color: #34CFBF;
+    color: #fff;
+    padding: 20px 0;
+    margin: 15px 0;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
 .mais-faladas {
     display: flex;
     flex-direction: column;
