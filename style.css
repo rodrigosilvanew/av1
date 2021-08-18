@@ -41,13 +41,25 @@ body {
 /* HEADER */
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 100%;
     font-size: 3em;
     background: linear-gradient(135deg, #3B88C3, #4fb3ff);
     color: #fff;
     padding: 20px 0;
     margin-bottom: 15px;
+}
+
+.link-login {
+    display: block;
+    font-size: .5em;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 /* MAIN */
