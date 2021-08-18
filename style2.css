@@ -52,5 +52,27 @@ form .input-block input {
 }
 
 form .btn-login {
-    
+    display: block;
+    min-width: 120px;
+    border: none;
+    background-color: #36BDD9;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    padding: 7px;
+}
+
+/* APARIÇÃO DO FORM */
+
+.form-hide {
+    animation: down 500ms forwards;
+}
+
+@keyframes down {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(100vh);
+    }
 }
